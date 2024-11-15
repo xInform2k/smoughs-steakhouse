@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smough's Medieval Steakhouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"> <!-- A medieval font -->
+</head>
+<body>
+    <header>
+        <h1>Smough's Medieval Steakhouse</h1>
+        <p>A feast fit for a lord, only at Smough’s!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#appetizers">Hors d'oeuvres</a></li>
+            <li><a href="#steaks">Our Cuts</a></li>
+            <li><a href="#drinks">Elixirs & Mead</a></li>
+            <li><a href="#contact">Find the Great Hall</a></li>
+        </ul>
+    </nav>
+
+    <section id="appetizers">
+        <h2>Appetizers of the Great Hall</h2>
+        <p>Begin thy feast with savory delights.</p>
+        <ul>
+            <li><strong>Carpaccio of the King’s Aged Beef</strong> - Pickled forest mushrooms, wild greens, cherry reduction, aged cheese butter.</li>
+            <li><strong>Seared Foie of the Highland Hunt</strong> - Roasted squash, sage from the royal garden, black walnut, honeyed elixir.</li>
+        </ul>
+    </section>
+
+    <section id="steaks">
+        <h2>Cuts of the Noble Table</h2>
+        <p>All steaks charbroiled over natural hardwood, honoring ancient traditions.</p>
+        <ul>
+            <li><strong>Filet Mignon of the King’s Herds</strong> - A tender cut, aged to perfection.</li>
+            <li><strong>Dry-Aged Porterhouse of Winterfell</strong> - Fit for the lord of the North.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Smough's Medieval Steakhouse. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+/* styles.css */
+body {
+    font-family: 'MedievalSharp', serif; /* Medieval-looking font */
+    background-color: #f4f1e9;
+    color: #2c1d0e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #523a28;
+    color: #f9e4b7;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #2c1d0e;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #f9e4b7;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #523a28;
+}
+
+footer {
+    background-color: #2c1d0e;
+    color: #f9e4b7;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
